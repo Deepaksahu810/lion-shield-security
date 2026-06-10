@@ -237,7 +237,7 @@ img { display: block; max-width: 100%; }
 .footer-grid { display: grid; grid-template-columns: 1fr; gap: 2.5rem; margin-bottom: 3rem; }
 @media (min-width: 768px) { .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1.5fr; } }
 .footer-brand p { font-size: 0.85rem; color: #94a3b8; line-height: 1.7; margin: 1.25rem 0; }
-.footer-logo .logo-img { height: 48px; filter: brightness(0) invert(1); }
+.footer-logo .logo-img { height: 48px; background: #fff; border-radius: 6px; padding: 4px; }
 .footer-social { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: #94a3b8; transition: color 0.2s; margin-bottom: 0.5rem; }
 .footer-brand { display: flex; flex-direction: column; }
 .footer-social:hover { color: var(--accent); }
